@@ -9,15 +9,21 @@
     <title>Quiz</title>
 </head>
 <body>
+    
     <header>
-        <h1>Quiz interativo para programadores</h1>
+       
+ 
+</div>
+
+        <h1 style ="color: brown">Quiz interativo para programadores</h1>
         <hr>
         <p>teste seus conhecimentos em programação e veja qual pontuação você consegue fazer!</p>
+    </header>
         <main>
             <!--INTRODUÇÃO-->
             <section>
-                <h2> sobre esse Quiz</h2>
-                 <p><strong> Este quiz</strong> foi desenvolvido para testar seus conhecimentos em programação, como liguagens de programação, conceitos básicos e mais</p>
+                <h2 class="Sub"> sobre esse Quiz</h2>
+                 <p class="paragrafo1"><strong> [Este quiz foi desenvolvido para testar seus conhecimentos em programação, como liguagens de programação, conceitos básicos e mais..</strong>]</p>
                  <p>Você encontrara diferentes tipos de perguntas, incluindo múltipla escolha, texto e perguntas de data.<br> Desafia-se com este Quiz!</p>
                  <p>você podera encontrar alguns acrônimos como <em><abbr title="Hyper Tex Markupt Lenguange">Html</abbr> e <abbr title="Cascading style sheet">CSS</abbr></em>, que são comumente usados em questões relacionadas ao desenvolvimento Web!</p>
                 
@@ -53,7 +59,7 @@
             </section>
             <!--Pergunta 3: senha-->
             <section>
-                <h2>Escreva um exemplo de senha forte!</h2>
+                <h2>Pergunta 3: Escreva um exemplo de senha forte!</h2>
                 <form>
                     <input type="password"id="p3"name="pergunta3"placeholder="senha forte....">
                 </form>
@@ -61,15 +67,15 @@
             </section>
             <!--Pegunta 4: data-->
             <section>
-                <h2>Em que ano o HTML lançou sua primeira versão</h2>
+                <h2>Pergunta 4:Em que ano o HTML lançou sua primeira versão</h2>
                 <form>
                     <input type="date"id="p4"name="pergunta4">
                 </form>
 
             </section>
-            <!--Pegunta 5:Seleção multipla-->[
+            <!--Pegunta 5:Seleção multipla-->
             <section>
-                <h2>Quais dessas tecnologias são consideradas linguagens de Programação</h2>
+                <h2>Pergunta 5: Quais dessas tecnologias são consideradas linguagens de Programação</h2>
                 <form>
                     <input type="checkbox"id="p5a"name="pergunta5"value="Javascript">
                     <label>Java script</label>
@@ -88,17 +94,18 @@
 
 
                 </form>
+               
             </section>
             <!--Pegunta 6:Upload de Arquivo-->
             <section>
-                <h2>faça um upload de um aqrquivo contendo código HTML</h2>
+                <h2>Pergunta 6:  faça um upload de um arquivo contendo código HTML</h2>
                 <form>
                     <input type="file" id="p6"name="pergunta6">
                 </form>
             </section>
             <!--Pegunta 7:menu suspenso-->
             <section>
-                <h2>Pergunta 7: selecione o atrivuto do input que define seu tipo</h2>
+                <h2>Pergunta 7: selecione o arquivo do input que define seu tipo</h2>
                 <select name="pergunta7"id="p7">
                 <option value="id">id</option>
                 <option value="name">name</option>
@@ -123,7 +130,7 @@
             </section>
             <!--tabela de pontuação-->
             <section>
-                <h2>Tabela de Pontuação</h2>
+                <h2 class="tabela">Tabela de Pontuação</h2>
                 <table border="1">
                     <thead>
                         <th>Pontuação</th>
@@ -178,7 +185,7 @@
             </section>
             <!--Formúlario de Feedback-->
             <section>
-                <h2>Nos dê o seu feedback</h2>
+                <h2 class="subfd">Nos dê o seu feedback</h2>
                 <fieldset>
                     <legend>Informações de contato</legend>
                 <label for="name">Nome: </label>
@@ -194,8 +201,8 @@
         <footer>
             <p>&copy;Quiz de programadores .Todos os direitos reservados</p>
             <label>&langd;Observações:</label>
-            <p>para conhecer mais sobre mim e outros quizzes.. <a href="sobremim.html" target=_blank >clique aqui</a></p>
+            <p>para conhecer mais sobre mim e outros quizzes.. <button class="p2" type="button" onclick="window.open('sobremim.html', '_blank')">clique aqui</button></p>
         </footer>
-    </header>
+    
 </body>
 </html>
