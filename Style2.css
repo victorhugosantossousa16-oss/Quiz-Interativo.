@@ -1,17 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Redaction+50:ital,wght@0,400;0,700;1,400&display=swap');
+
 body{
-     background-color: yellowgreen;
-     justify-items: center
-     ;
-     
+     background-color: rgb(232, 232, 197);
+    align-items: center;
+     margin:0;
+    padding:0px;
+ 
+    color: #000000;
+    font-family:'Redaction 50';
+    font-weight:400px;
 }
-form{
-     width: 300vh;
-}
-input,button{
-     align-items: center;
-     padding-bottom: 10px;
-     margin-bottom: 10px;
-}
-.subfd{
-     color:black;
+h1{
+     color: brown;
 }
